@@ -1,0 +1,52 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sat Nov 18 23:44:54 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000c0
+                   .cinit    romdata   0x0000c0    program   0x000002
+.config_300001_BUILD/DEFAULT/PRODUCTION/HW.O    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/HW.O    romdata   0x300003    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000c1      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+            196 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   FINISH   0x000054    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                  INITIAL   0x00000c    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                    Large   0x000034    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                     MAIN   0x000014    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                     NEXT   0x000024    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                     OVER   0x00005e    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                     PEND   0x0000c0    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                    Start   0x000000    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                    array   0x000066    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Start   0x000000    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                  INITIAL   0x00000c    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                     MAIN   0x000014    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                     NEXT   0x000024    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                    Large   0x000034    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                   FINISH   0x000054    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                     OVER   0x00005e    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                    array   0x000066    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+                     PEND   0x0000c0    program     static C:\Users\user\Desktop\lab\test\HW1.X\HW.asm
+
+
